@@ -28,7 +28,8 @@ spigot {
     apiVersion = project.property("apiVersion").toString()
     //depends = listOf("ProtocolLib")
     commands {
-        //create("hello")
+        create("train")
+        create("trainrelease")
     }
 }
 
