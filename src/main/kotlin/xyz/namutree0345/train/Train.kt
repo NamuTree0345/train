@@ -9,6 +9,7 @@ class Train : JavaPlugin() {
 
     override fun onEnable() {
         getCommand("train")?.setExecutor(TrainCommand())
+        getCommand("trainrelease")?.setExecutor(TrainReleaseCommand())
     }
 
 }
